@@ -1,0 +1,6 @@
+# setup custom port
+http.port: 8771
+
+# default is localhost so unles setup to all IPs like below
+# the elasticsearch node will not be accessible from host
+network.host: 0.0.0.0
